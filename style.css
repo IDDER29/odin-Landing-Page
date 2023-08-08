@@ -1,0 +1,262 @@
+body{
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  }
+  /* Add the following CSS rules to your existing code */
+
+body {
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.hero-main {
+ 
+  flex-wrap: wrap; /* Wrap the content to prevent overflow */
+  
+}
+
+.card {
+  flex-basis: calc(50% - 20px); /* Adjust the width based on your design needs */
+}
+
+/* Add other necessary styles and adjust as needed */
+
+  
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+    button{
+    background-color: #3882F6;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #E5E7EB;
+  
+    }
+/* Define the transition duration and easing */
+button, a {
+  transition: all 0.3s ease;
+}
+
+/* Add styles for button hover effect */
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add styles for anchor tag hover effect */
+a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add styles for active state */
+button:active, a:active {
+  transform: scale(0.9);
+}
+
+
+
+
+  img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  p{
+    line-height: 1.5em;
+
+  }
+
+  ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  }
+
+
+  nav{
+ 
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  min-width: max-content;
+  
+  }
+  
+  
+  .body{
+    width: 100vw;
+     
+  }
+
+  .header-Logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+    width: 100px;
+  }
+
+  .hero,
+  .footer{
+    width: 100vw;
+    
+   background-color: #1F2937;
+  }
+
+  .hero-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 20px;
+  }
+  
+  .hero-main-text{
+    width: 600px;
+    margin-bottom: 36px;
+  }
+
+  .hero-main-text h1{
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffffff;
+  }
+  
+  
+  .hero-main-text p{
+  font-size: 18px;
+  color: #E5E7EB;
+  }
+  
+  .hero-main-img{
+    width: 600px;
+    margin-bottom: 36px;
+  }
+ 
+  .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .information-header{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  }
+  .information-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    flex: 1;
+    flex: 0 1 auto;
+  }
+
+  .card p{
+    max-width: 250px;
+    text-align: center;
+    height: 250px;
+  }
+
+  .information-text img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: #3882F6 2px solid;
+  }
+  
+.quote{
+  background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+  .quote-text-tt{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 500px;
+    width: 800px;
+   
+  }
+  .quote .quote-text{
+    width: 800px;
+    align-self: center;
+    justify-self: center;
+    margin-top:100px ;
+    margin-bottom: 0;
+  }
+
+ .autor{
+    width: 300px;
+    
+    align-self: self-end;
+    justify-self: self-start;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 36px;
+
+  }
+
+  .the-ads{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  .the-ads-bk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    background-color:  #3882F6;
+    padding: 25px;
+    margin: auto 20px;
+    border-radius: 18px;
+  }
+ 
+  .the-ads-bk button{
+    border: 2px solid #ffffff ;
+  }
+ 
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    color: #E5E7EB;
+
+  }
